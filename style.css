@@ -1,0 +1,102 @@
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background: url("https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80") no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Roboto", "sans-serif";
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.lilipad {
+  background-color: rgba(52, 58, 64, 0.93);
+  border-bottom: rgba(37,41,45,0.8) solid 0.3rem;
+  border-right: rgba(37,41,45,0.8) solid 0.3rem;
+  height: 15rem;
+  width: 15rem;
+  margin: 1.5rem 0.75rem 0 0.75rem;
+  border-radius: 1.5rem;
+  transition: all 1s;
+}
+.lilipad:hover {
+  transform: scale(1.1);
+}
+.hidden {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  color: rgba(0,0,0,0);
+}
+.hidden:hover {
+  background-color: rgba(52, 58, 64, 0.93);
+  border-color: rgba(37,41,45,0.8);
+}
+.hidden-text:hover {
+  background-color: rgba(0,0,0,0);
+  border-color: rgba(0,0,0,0);
+  color: lightgrey;
+}
+.colour {
+  background-color: rgba(37,41,45,1);
+  border-color: red;
+}
+.round {
+  border-radius: 1.5rem;
+  margin: 1.5rem 0.75rem 0 0.75rem;
+}
+.footer {
+  background-color: rgba(37,41,45,1);
+  height: 10rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+
+  transition: all 0.7s ease-in-out;
+}
+.footer:hover {
+  background-color: rgba(48, 54, 59, 1);
+  /* transform: scaleY(1.1); */
+  /* Make it grow/move up/something */
+}
+.container2 {
+  display: flex;
+  flex-direction: column;
+}
+hr {
+  border: 0.1rem solid lightgrey;
+  border-radius: 0.3rem;
+  min-width: 4rem;
+}
+h5, h6, p {
+  color: lightgrey;
+}
+h5 {
+  font-size: 0.8rem;
+}
+h6 {
+  font-size: 0.6rem;
+}
+p {
+  font-size: 1rem;
+  margin: 1rem;
+  transition: all 1s;
+  height:100%;
+}
+.p-img {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img {
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  transition: all 1s;
+}
+img:hover {
+  transform: scale(1.1);
+}
+.buffer {
+  height: 1rem;
+}
